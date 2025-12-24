@@ -2,20 +2,24 @@ name: pitaovc
 on:
   workflow_dispatch:
   schedule:
-    - cron: '45 5/6 * * *'
-jobs:  # 29227
+    - cron: '50 0/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: pitaovc
         env:
-          i5566: ${{ secrets.i5566 }}
+          xu152: ${{ secrets.xu152 }}
         run: |
-          echo $i5566 | jq -r .je2105 | /bin/bash
-          echo $b7545 | jq -r .nplbs8873 | /bin/bash
-          echo $hvdvz2 | jq -r .dqcv0 | /bin/bash
-          echo $qigl487 | jq -r .gg7 | /bin/bash
-          echo $pi753 | jq -r .adss00 | /bin/bash
-          echo $olnn30 | jq -r .nvbnj4795 | /bin/bash
+          echo $xu152 | jq -r .jrpy8101 | /bin/bash
+          echo $hwn1 | jq -r .yhfbo5 | /bin/bash
+          echo $gry18975 | jq -r .katn5 | /bin/bash
+          echo $sh1089 | jq -r .iw8247 | /bin/bash
+          echo $pm4 | jq -r .o56 | /bin/bash
+          echo $cdj105 | jq -r .sqf989 | /bin/bash
+          echo $i775 | jq -r .pp718 | /bin/bash
+          echo $ukaw7 | jq -r .zwbn69 | /bin/bash
 
