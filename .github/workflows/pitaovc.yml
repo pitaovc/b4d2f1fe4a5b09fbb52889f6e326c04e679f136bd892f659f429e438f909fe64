@@ -1,8 +1,9 @@
 name: pitaovc
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '50 0/6 * * *'
+    - cron: '53 3/6 * * *'
 
 jobs:
   build:
@@ -12,14 +13,12 @@ jobs:
       - uses: actions/checkout@v4
       - name: pitaovc
         env:
-          xu152: ${{ secrets.xu152 }}
+          dvwt156: ${{ secrets.dvwt156 }}
         run: |
-          echo $xu152 | jq -r .jrpy8101 | /bin/bash
-          echo $hwn1 | jq -r .yhfbo5 | /bin/bash
-          echo $gry18975 | jq -r .katn5 | /bin/bash
-          echo $sh1089 | jq -r .iw8247 | /bin/bash
-          echo $pm4 | jq -r .o56 | /bin/bash
-          echo $cdj105 | jq -r .sqf989 | /bin/bash
-          echo $i775 | jq -r .pp718 | /bin/bash
-          echo $ukaw7 | jq -r .zwbn69 | /bin/bash
+          echo $dvwt156 | jq -r .y65 | /bin/bash
+          echo $ykrvk5724 | jq -r .rn9024 | /bin/bash
+          echo $cr0547 | jq -r .cxjpv26527 | /bin/bash
+          echo $ify3 | jq -r .mripr37 | /bin/bash
+          echo $grtky674 | jq -r .zbkgs97088 | /bin/bash
+          echo $jsbew8 | jq -r .kevo9 | /bin/bash
 
